@@ -1,11 +1,4 @@
-﻿namespace Abstracao
-{
-
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Time meuTime = new Time("Seleção Brasileira");
+Time meuTime = new Time("Seleção Brasileira");
 
             Jogador jogador1 = new Jogador("Neymar", "Atacante", 10);
             Jogador jogador2 = new Jogador("Alisson", "Goleiro", 1);
@@ -16,6 +9,3 @@
             meuTime.AdicionarJogador(jogador3);
 
             meuTime.ListarJogadores();
-        }
-    }
-}
