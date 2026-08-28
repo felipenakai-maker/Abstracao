@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace Abstracao
+﻿namespace Abstracao
 {
     internal class Aluno
     {

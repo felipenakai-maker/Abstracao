@@ -1,11 +1,4 @@
-﻿namespace Abstracao
-{
-
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            ContaBancaria conta = new ContaBancaria("João da Silva", "123456", 1000);
+ContaBancaria conta = new ContaBancaria("João da Silva", "123456", 1000);
 
             Console.WriteLine($"Titular: {conta.Titular}");
             Console.WriteLine($"Número da conta: {conta.NumeroConta}");
@@ -25,6 +18,3 @@
             //tentando sacar sem ter o valor na conta
             Console.WriteLine();
             conta.Sacar(10000);
-        }
-    }
-}
